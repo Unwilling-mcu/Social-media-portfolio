@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchayan Garai - Social Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #141e30, #243b55);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            border: 3px solid #fff;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-btn i {
+            margin-right: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .facebook {
+            background: #3b5998;
+        }
+
+        .twitter {
+            background: #1da1f2;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        }
+
+        .linkedin {
+            background: #0077b5;
+        }
+
+        .github {
+            background: #333;
+            margin: 2rem auto;
+            width: fit-content;
+        }
+
+        .copyright {
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: auto;
+        }
+
+        .copyright a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .copyright a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 90%;
+                padding: 1.5rem;
+            }
+        }
+
+        .animated {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translatey(0px);
+            }
+            50% {
+                transform: translatey(-10px);
+            }
+            100% {
+                transform: translatey(0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <img src="images/banner2.jpg" alt="Sanchayan Garai" class="profile-pic animated" alt="" />
+    </div>
+        <h1>Connect With Me</h1>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100093233455758" target="_blank" class="social-btn facebook">
+                <i class="fab fa-facebook-f"></i>
+                Facebook
+            </a>
+            <a href="https://x.com/Sg57541337" target="_blank" class="social-btn twitter">
+                <i class="fab fa-twitter"></i>
+                Twitter
+            </a>
+            <a href="https://www.instagram.com/unwilling__mcu/?__pwa=1" target="_blank" class="social-btn instagram">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/sanchayan-garai-083053386/" target="_blank" class="social-btn linkedin">
+                <i class="fab fa-linkedin-in"></i>
+                LinkedIn
+            </a>
+        </div>
+        <a href="https://github.com/Unwilling-mcu" target="_blank" class="social-btn github">
+            <i class="fab fa-github"></i>
+            GitHub
+        </a>
+    </div>
+    <div class="copyright">
+        © 2024 Sanchayan Garai. All Rights Reserved. | Made with <i class="fas fa-heart" style="color: #ff0000;"></i> by <a href="https://github.com/Unwilling-mcu" target="_blank">Sanchayan</a>
+    </div>
+</body>
+</html>
